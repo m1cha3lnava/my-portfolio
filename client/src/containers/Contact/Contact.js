@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import { Linkedin } from "../../Images/Linkedin-profile.png";
+import Linkedin from "../../Images/Linkedin-profile.png";
+import Resume from "../../Images/resume 2020.pdf";
 
 class Contact extends Component {
   render() {
@@ -10,9 +11,10 @@ class Contact extends Component {
         <Navbar />
         <div className="container">
           <h1 className="text-center text-white">Contact Me</h1>
-          <div className="row-12">
+          <div className="row-12 mt-3">
             <div className="card-deck">
               <div className="card">
+                <br />
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">
                     <strong>Phone</strong>
@@ -26,11 +28,10 @@ class Contact extends Component {
                   </li>
                   <li className="list-group-item">
                     <strong>Resume</strong>
-                    <br /> <a href="./assets/resume 2020.pdf">PDF</a>
+                    <br /> <a href={Resume}>PDF</a>
                   </li>
                 </ul>
               </div>
-
               <div className="card">
                 <img className="card-img-top" src={Linkedin} alt="Linkedin" />
                 <div className="card-body">
@@ -44,7 +45,6 @@ class Contact extends Component {
                   </h5>
                 </div>
               </div>
-
               <div className="card">
                 <img
                   className="card-img-top"

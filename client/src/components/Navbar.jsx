@@ -4,9 +4,9 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand" href="/">
-            About Me
+        <nav className="navbar navbar-expand-lg navbar-dark">
+          <a className="navbar-brand mb-0 h1" href="/">
+            <mark>Michael Nava</mark>
           </a>
           <button
             className="navbar-toggler"
@@ -23,13 +23,13 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/projects">
-                  Projects
+                <a className="nav-link active" href="/projects">
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
-                  Contact Me
+                <a className="nav-link active" href="/contact">
+                  Contact
                 </a>
               </li>
             </ul>

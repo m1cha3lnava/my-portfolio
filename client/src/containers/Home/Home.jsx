@@ -8,14 +8,13 @@ class Home extends Component {
     return (
       <div className="body">
         <Navbar />
+        <h1 className="text-center text-white mt">Michael Nava</h1>
         <div className="container bg-white">
           <div className="row">
             <div className="col-lg">
               <img src={ProfilePic} className="profilePic" alt="Profile" />
             </div>
             <div className="col-sm-9">
-              <h1 className="text-center">Michael Nava</h1>
-
               <p className="text center" id="profileText">
                 My name is Michael Nava. I was born in California and raised in
                 North Alabama where I graduated from Austin High School. I was
