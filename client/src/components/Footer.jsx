@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <footer className="fixed-bottom page-footer font-small">
         <div className="footer-copyright text-center py-2 text-white">
-          © 2020 Copyright
+          Michael Nava © 2020 Copyright
         </div>
       </footer>
     );

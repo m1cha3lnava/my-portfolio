@@ -16,6 +16,7 @@ body {
   background-color: #131313;
   background-size: 20px 20px;
 }
-#profilePic {
+.profilePic {
+  height: 100%;
   border-radius: 50% !important;
 }
