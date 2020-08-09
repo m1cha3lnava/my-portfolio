@@ -10,8 +10,9 @@ class Projects extends Component {
         <Navbar />
         <div className="container">
           <h1 className="text-white text-center">My Projects</h1>
-          <div className="row bg-light">
-            <div className="card">
+          <div className="row">
+          <div className="card-deck">
+            <div className="card md">
               <div>
                 <div className="card-title">
                   <h3>
@@ -28,7 +29,7 @@ class Projects extends Component {
                 </a>
               </div>
             </div>
-            <div className="card">
+            <div className="card md">
               <div>
                 <div className="card-title">
                   <h3>
@@ -45,7 +46,7 @@ class Projects extends Component {
                 </a>
               </div>
             </div>
-            <div className="card">
+            <div className="card md">
               <div>
                 <div className="card-title">
                   <h3>
@@ -112,6 +113,7 @@ class Projects extends Component {
                   <img className="m-3" src="" alt="Budget Tracker" />
                 </a>
               </div>
+            </div>
             </div>
           </div>
         </div>
