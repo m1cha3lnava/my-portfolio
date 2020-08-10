@@ -1,17 +1,16 @@
 import React from "react";
-import Project1 from "../Images/screenshot-project-1.png";
 
-const ProjectCard = (props) => {
+const ProjectCard = ({ href, src, text }) => {
   return (
     <div className="card mt-3 ">
-      <a href={props.href}>
-        <img className="card-img-top" src={props.src} alt={props.alt} />
+      <a href={href}>
+        <img className="card-img-top" src={src} alt={text} />
       </a>
       <br />
       <div className="card-title text-center">
         <h3>
-          <a href={props.href} className="text-dark">
-            {props.text}
+          <a href={href} className="text-dark">
+            {text}
           </a>
         </h3>
       </div>
