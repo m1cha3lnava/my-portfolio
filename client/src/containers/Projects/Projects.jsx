@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import ProjectCard from "../../components/ProjectCard";
+import Footprints from "../../Images/Footprints.png";
 import Project1 from "../../Images/screenshot-project-1.png";
 import Project2 from "../../Images/screenshotproject2.png";
 import FitnessTracker from "../../Images/fitness-tracker.png";
@@ -18,6 +19,15 @@ class Projects extends Component {
         <Navbar />
         <div className="container">
           <h1 className="text-white text-center">My Projects</h1>
+          <div className="row-12">
+            <div className="card-deck">
+              <ProjectCard
+                text="Footprints"
+                href="https://rocky-woodland-66255.herokuapp.com/"
+                src={Footprints}
+              ></ProjectCard>
+            </div>
+          </div>
           <div className="row-12">
             <div className="card-deck">
               <ProjectCard
