@@ -21,18 +21,18 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost/my-portfolio", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log("Successfully connected to database.");
-  })
-  .catch((err) => {
-    console.log("Unable to connect to database.");
-    console.log(err);
-  });
+// mongoose
+//   .connect(process.env.MONGODB_URI || "mongodb://localhost/my-portfolio", {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//   })
+//   .then(() => {
+//     console.log("Successfully connected to database.");
+//   })
+//   .catch((err) => {
+//     console.log("Unable to connect to database.");
+//     console.log(err);
+//   });
 
 app.listen(PORT, () => {
   console.log(`Express server running on http://localhost:${PORT}`);

@@ -14,7 +14,7 @@ class Home extends Component {
             <div className="col-lg">
               <img src={ProfilePic} className="profilePic" alt="Profile" />
             </div>
-            <div className="col-sm-9">
+            <div className="col-sm-9 mt-3">
               <p className="text center" id="profileText">
                 My name is Michael Nava. I was born in California and raised in
                 North Alabama where I graduated from Austin High School. I was
@@ -32,6 +32,25 @@ class Home extends Component {
                 employer competitive in the tech industry.
               </p>
             </div>
+          </div>
+          <div className="row">
+            <p>
+              Me llamo Michael Nava. Nací en California y crecí en el norte de
+              Alabama, donde me gradué de Austin High School. Estuve activo en
+              JROTC los 4 años y jugué fútbol universitario en mi primer año y
+              luego corrí atletismo y campo a través en mi segundo, tercer y
+              cuarto año. Asistí a la Academia Militar de los Estados Unidos en
+              West Point durante mi primer año, luego asistí a Calhoun Community
+              College y finalmente a la Universidad de Alabama en Huntsville. Me
+              dediqué a los campos de los sistemas de información informática,
+              la informática y la ingeniería industrial. Mi último trabajo fue
+              Controlman en General Electric Appliances, donde se me asignó la
+              tarea de minimizar el tiempo de inactividad, realicé mantenimiento
+              de nivel 1 y mantenimiento preventivo para varios departamentos.
+              Aproveché la oportunidad de inscribirme en el campo de
+              entrenamiento de codificación de Georgia Tech para convertirme en
+              un empleador competitivo en la industria tecnológica.
+            </p>
           </div>
         </div>
         <Footer />
